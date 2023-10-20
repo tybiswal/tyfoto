@@ -4,9 +4,9 @@ body {
 
 h1 {
     font-family: 'Alegreya', serif;
-    padding-left: 2ch;
+    margin-left: 55px;
   }
 
-.photo {
-    padding-bottom: 20px;
+p {
+    margin-left: 50px;
 }
