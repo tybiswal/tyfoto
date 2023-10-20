@@ -1,9 +1,12 @@
+html {
+    font-family: 'Alegreya', serif;
+}
+
 body {
     background-color: #FCFBF4;
 }
 
 h1 {
-    font-family: 'Alegreya', serif;
     margin-left: 55px;
   }
 
