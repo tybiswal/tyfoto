@@ -35,6 +35,24 @@ body {
     padding: 0 3vw 0 3vw;
 }
 
+.myName {
+    overflow: hidden;
+}
+
+.photo {
+    height: 87vh;
+    margin: 3vw 0 0 0;
+    padding: 0 3vw 0 3vw;
+    overflow: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar Firefox */
+}
+
+.photo::-webkit-scrollbar {
+    display: none;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -49,5 +67,7 @@ h2 {
 }
 
 .copyright {
+    position: fixed;
+    bottom: 3vh;
     color: #d3d3d3;
 }
