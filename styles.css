@@ -32,6 +32,7 @@ html {
 
 body {
     background-color: #FCFBF4;
+    padding: 0 3vw 0 3vw;
 }
 
 img {
@@ -41,4 +42,12 @@ img {
 
 h1 {
     font-size: 2vw;
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+.copyright {
+    color: #d3d3d3;
 }
