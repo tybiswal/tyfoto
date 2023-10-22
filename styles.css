@@ -86,6 +86,7 @@ h2 {
     color: #d3d3d3;
 }
 
+/* when screen less than 600px */
 @media screen and (max-width: 600px) {
     .myName {
         display:none;
@@ -93,10 +94,14 @@ h2 {
     .photo{
         display:none;
     }
-  }
+    h2 {
+        font-size: 2vw;
+    }
+}
 
+/* when screen more than 600px */
   @media screen and (min-width: 600px){
     .photoMobile{
         display:none;
     }
-  }
+}
