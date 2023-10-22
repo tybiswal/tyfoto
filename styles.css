@@ -90,18 +90,13 @@ h2 {
         font-size: 2vw;
     }
     .photoMobile {
-        height: 87vh;
+        height: 80vh;
         margin: 3vw 0 0 0;
         padding: 0 3vw 0 0;
         overflow: auto;
         scroll-behavior: smooth;
         -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
         scrollbar-width: none;  /* Hide scrollbar Firefox */
-    }
-    .copyright {
-        position: fixed;
-        bottom: 5vh;
-        color: #d3d3d3;
     }
 }
 
