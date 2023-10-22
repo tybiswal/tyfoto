@@ -71,3 +71,10 @@ h2 {
     bottom: 3vh;
     color: #d3d3d3;
 }
+
+@media screen and (max-width: 600px) {
+    .myName {
+        display:none;
+    }
+
+  }
