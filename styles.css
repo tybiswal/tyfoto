@@ -81,16 +81,6 @@ h2 {
     font-size: 5vw;
 }
 
-.copyright {
-    position: fixed;
-    bottom: 3vh;
-    color: #d3d3d3;
-}
-.portLink {
-    position: fixed;
-    bottom: 6vh;
-}
-
 .backLink {
     text-align: right;
     font-size: 1vw;
@@ -149,6 +139,13 @@ a:link {
         -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
         scrollbar-width: none;  /* Hide scrollbar Firefox */
     }
+    .copyright {
+        position: relative;
+        color: #d3d3d3;
+    }
+    .portLink {
+        position: relative;
+    }
 }
 
 /* when screen more than 600px */
@@ -158,5 +155,14 @@ a:link {
     }
     .portfolioMobile{
         display:none;
+    }
+    .copyright {
+        position: fixed;
+        bottom: 3vh;
+        color: #d3d3d3;
+    }
+    .portLink {
+        position: fixed;
+        bottom: 6vh;
     }
 }
