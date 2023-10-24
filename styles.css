@@ -109,15 +109,10 @@ a:link {
 
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
-    .myName {
+    .onPC {
         display:none;
     }
-    .photo{
-        display:none;
-    }
-    .portfolio{
-        display:none;
-    }
+
     h2 {
         font-size: 2vw;
     }
