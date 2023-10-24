@@ -93,10 +93,32 @@ h2 {
     bottom: 6vh;
 }
 
-.backLink{
+.backLink {
     text-align: right;
+    align-items: center;
     font-size: 1vw;
 }
+
+a:link {
+    color: #3a3b3c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #3a3b3c;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
