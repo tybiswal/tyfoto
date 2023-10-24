@@ -49,9 +49,20 @@ body {
     scrollbar-width: none;  /* Hide scrollbar Firefox */
 }
 
+.portfolio {
+    height: 87vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar Firefox */
+}
 
 
 .photo::-webkit-scrollbar {
+    display: none;
+}
+
+.portfolio::-webkit-scrollbar {
     display: none;
 }
 
@@ -77,6 +88,15 @@ h2 {
     bottom: 3vh;
     color: #d3d3d3;
 }
+.portLink {
+    position: fixed;
+    bottom: 6vh;
+}
+
+.backLink{
+    text-align: right;
+    font-size: 1vw;
+}
 
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
@@ -84,6 +104,9 @@ h2 {
         display:none;
     }
     .photo{
+        display:none;
+    }
+    .portfolio{
         display:none;
     }
     h2 {
@@ -98,11 +121,23 @@ h2 {
         -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
         scrollbar-width: none;  /* Hide scrollbar Firefox */
     }
+    .portfolioMobile {
+        height: 80vh;
+        margin: 3vw 0 0 0;
+        padding: 0 3vw 0 0;
+        overflow: auto;
+        scroll-behavior: smooth;
+        -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+        scrollbar-width: none;  /* Hide scrollbar Firefox */
+    }
 }
 
 /* when screen more than 600px */
   @media screen and (min-width: 600px){
     .photoMobile{
+        display:none;
+    }
+    .portfolioMobile{
         display:none;
     }
 }
