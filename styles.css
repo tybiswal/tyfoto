@@ -145,7 +145,7 @@ a:link {
 
 /* when screen more than 600px */
   @media screen and (min-width: 600px){
-    .photoMobile{
+    .onMobile{
         display:none;
     }
     .portfolioMobile{
