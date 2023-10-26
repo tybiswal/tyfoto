@@ -83,13 +83,14 @@ h2 {
 
 .backLink {
     text-align: right;
-    font-size: 1vw;
 }
 
 a:link {
     color: #3a3b3c;
     background-color: transparent;
     text-decoration: none;
+    font-size: 1vw;
+    font-weight: bold;
   }
   a:visited {
     color: #3a3b3c;
