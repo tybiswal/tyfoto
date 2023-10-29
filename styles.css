@@ -70,26 +70,14 @@ img {
     height: auto;
 }
 
-h1 {
-    font-size: 2vw;
-}
-h2 {
-    font-size: 1vw;
-}
-
 .OnMobile {
     font-size: 5vw;
-}
-
-.backLink {
-    text-align: right;
 }
 
 a:link {
     color: #3a3b3c;
     background-color: transparent;
     text-decoration: none;
-    font-size: 1vw;
     font-weight: bold;
   }
   a:visited {
@@ -112,10 +100,6 @@ a:link {
 @media screen and (max-width: 600px) {
     .onPC {
         display:none;
-    }
-
-    h2 {
-        font-size: 2vw;
     }
     .photoMobile {
         height: 80vh;
@@ -146,6 +130,12 @@ a:link {
 
 /* when screen more than 600px */
   @media screen and (min-width: 600px){
+    h1 {
+        font-size: 2vw;
+    }
+    h2 {
+        font-size: 1vw;
+    }
     .onMobile{
         display:none;
     }
