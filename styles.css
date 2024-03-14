@@ -10,7 +10,7 @@
   
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
 }
  
 .col-1 {width: 8.33%;}
@@ -32,17 +32,12 @@ html {
 
 body {
     background-color: #FCFBF4;
-    padding: 0 0 0 3vw;
+    padding: 0 15vw;
 }
 
-.myName {
-    overflow: hidden;
-}
-
-.photo {
-    height: 87vh;
-    margin: 3vw 0 0 0;
-    padding: 0 3vw 0 3vw;
+.photo-col {
+    height: 100vh;
+    max-width: 100%;
     overflow: auto;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
@@ -50,11 +45,16 @@ body {
 }
 
 .portfolio {
-    height: 87vh;
+    height: 100vh;
     overflow: auto;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar Firefox */
+}
+
+.portfolio-container {
+    max-width: 100%;
+    margin: 1vw 0;
 }
 
 .photo::-webkit-scrollbar {
@@ -70,23 +70,19 @@ img {
     height: auto;
 }
 
-.OnMobile {
-    font-size: 5vw;
-}
-
 a:link {
     color: #3a3b3c;
     background-color: transparent;
     text-decoration: none;
     font-weight: bold;
-  }
+}
   a:visited {
     color: #3a3b3c;
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: green;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -95,60 +91,36 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+.foot{
+    margin-top: 1vw;
+}
+.copyright {
+    background: #f5f5dc;
+    color: #6F4E37;
+    padding-left: 2vw;
+    border-radius: 1vw;
+}
+
+.bottom-link {
+    background: #f5f5ac;
+    color: #6F4E37;
+    border-radius: 1vw;
+}
 
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
-    .onPC {
-        display:none;
-    }
-    .photoMobile {
-        height: 80vh;
-        margin: 3vw 0 0 0;
-        padding: 0 3vw 0 0;
-        overflow: auto;
-        scroll-behavior: smooth;
-        -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
-        scrollbar-width: none;  /* Hide scrollbar Firefox */
-    }
-    .portfolioMobile {
-        height: 80vh;
-        margin: 3vw 0 0 0;
-        padding: 0 3vw 0 0;
-        overflow: auto;
-        scroll-behavior: smooth;
-        -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
-        scrollbar-width: none;  /* Hide scrollbar Firefox */
+    .foot{
+        font-size: 1vW;
     }
     .copyright {
-        position: relative;
-        color: #d3d3d3;
+        background: #f5f5dc;
+        color: #6F4E37;
+        padding-left: 2vw;
+        border-radius: 1vw;
     }
-    .portLink {
-        position: relative;
-    }
-}
-
-/* when screen more than 600px */
-  @media screen and (min-width: 600px){
-    h1 {
-        font-size: 2vw;
-    }
-    h2 {
-        font-size: 1vw;
-    }
-    .onMobile{
-        display:none;
-    }
-    .portfolioMobile{
-        display:none;
-    }
-    .copyright {
-        position: fixed;
-        bottom: 3vh;
-        color: #d3d3d3;
-    }
-    .portLink {
-        position: fixed;
-        bottom: 6vh;
+    .bottom-link {
+        background: #f5f5ac;
+        color: #6F4E37;
+        border-radius: 1vw;
     }
 }
