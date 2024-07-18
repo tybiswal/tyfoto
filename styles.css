@@ -97,14 +97,19 @@ a:link {
 .copyright {
     background: #f5f5dc;
     color: #6F4E37;
-    padding-left: 2vw;
     border-radius: 1vw;
 }
 
-.bottom-link {
-    background: #f5f5ac;
+.button {
+    border: 1px buttonborder;
     color: #6F4E37;
-}
+    background-color: #f5f5ac;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 1vw;
+  }
 
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
