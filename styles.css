@@ -95,13 +95,19 @@ a:link {
     margin-top: 1vw;
 }
 .copyright {
+    border: 5px;
+    border-style: solid;
+    border-color: #FCFBF4;
     background: #f5f5dc;
     color: #6F4E37;
     border-radius: 1vw;
+    text-align: center;
 }
 
 .button {
-    border: 1px buttonborder;
+    border: 5px;
+    border-style: solid;
+    border-color: #FCFBF4;
     color: #6F4E37;
     background-color: #f5f5ac;
     text-align: center;
@@ -114,17 +120,27 @@ a:link {
 /* when screen less than 600px */
 @media screen and (max-width: 600px) {
     .foot{
-        font-size: 1vW;
+        font-size: 1vw;
     }
     .copyright {
+        border: 5px;
+        border-style: solid;
+        border-color: #FCFBF4;
         background: #f5f5dc;
         color: #6F4E37;
-        padding-left: 2vw;
         border-radius: 1vw;
+        text-align: center;
     }
     .bottom-link {
-        background: #f5f5ac;
+        border: 5px;
+        border-style: solid;
+        border-color: #FCFBF4;
         color: #6F4E37;
+        background-color: #f5f5ac;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
         border-radius: 1vw;
     }
 }
