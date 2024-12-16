@@ -104,3 +104,8 @@ a:active {
         font-size: 1vw;
     }
 }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
